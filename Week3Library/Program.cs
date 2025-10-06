@@ -8,5 +8,11 @@
 
             // display book info
             book.DisplayInfo();
-        }
+
+        // create new instance of the Book class
+        Book book1 = new Book("Ultimate C#", "Microsoft", "2233445");
+
+        // display book info
+        book1.DisplayInfo();
     }
+}
